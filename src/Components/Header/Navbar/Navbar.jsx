@@ -41,20 +41,17 @@ const Navbar = () => {
             </NavLink>
         </li>
 
-
-
-
     </>
     return (
         <nav className="bg-violet-950">
             <div className="container mx-auto flex justify-between items-center">
-                {/* Left side: Company name */}
+                
                 <div><img className="lg:h-28 lg:w-44 h-16 w-32" src="../../../../public/image/images-removebg-preview.png" alt="" /></div>
 
                 {/* Toggle button for small screens */}
                 <div className="block sm:hidden mt-3">
                     <button
-                        className="text-gray-900"
+                        className="text-white mr-4 "
                         onClick={toggleMenu}
                     >
                         {isOpen ? (

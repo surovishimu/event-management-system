@@ -17,7 +17,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="lg:text-8xl md:text-6xl text-4xl font-greatVive font-semibold">Dreams Event</MovingText>
+                            fillMode="none" className="lg:text-8xl md:text-6xl text-4xl font-greatVive ">Dreams Event</MovingText>
                         <br />
                         <MovingText type="slideInFromLeft"
                             duration="5000ms"
@@ -25,7 +25,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="lg:text-xl md:text-sm text-sm border-2 font-semibold border-white lg:p-2 md:p-1 p-0">We turn moments into memories !</MovingText>
+                            fillMode="none" className="lg:text-xl md:text-sm text-sm border-2 font-semibold border-white lg:p-2 md:p-1 p-0">We turn moments into memories </MovingText>
                     </div>
                     <a href="#slide2" className="btn btn-circle">❯</a>
                 </div>
@@ -44,7 +44,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="font-semibold lg:text-8xl md:text-6xl text-4xl font-greatVive ">Dreams Event</MovingText>
+                            fillMode="none" className="lg:text-8xl md:text-6xl text-4xl font-greatVive ">Dreams Event</MovingText>
                         <br />
                         <MovingText type="slideInFromLeft"
                             duration="5000ms"
@@ -52,7 +52,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="lg:text-xl md:text-sm text-sm border-2 font-semibold border-white lg:p-2 md:p-1 p-0">We turn moments into memories !</MovingText>
+                            fillMode="none" className="lg:text-xl md:text-sm text-sm border-2 font-semibold border-white lg:p-2 md:p-1 p-0">We turn moments into memories </MovingText>
                     </div>
                     <a href="#slide3" className="btn btn-circle">❯</a>
                 </div>
@@ -71,7 +71,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="lg:text-8xl md:text-6xl text-4xl font-greatVive font-semibold">Dreams Event</MovingText>
+                            fillMode="none" className="lg:text-8xl md:text-6xl text-4xl font-greatVive ">Dreams Event</MovingText>
                         <br />
                         <MovingText type="slideInFromLeft"
                             duration="5000ms"
@@ -79,7 +79,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="lg:text-xl md:text-sm text-sm border-2 font-semibold border-white lg:p-2 md:p-1 p-0">We turn moments into memories !</MovingText>
+                            fillMode="none" className="lg:text-xl md:text-sm text-sm border-2 font-semibold border-white lg:p-2 md:p-1 p-0">We turn moments into memories </MovingText>
                     </div>
                     <a href="#slide4" className="btn btn-circle">❯</a>
                 </div>
@@ -98,7 +98,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="lg:text-8xl md:text-6xl text-4xl font-greatVive font-semibold">Dreams Event</MovingText>
+                            fillMode="none" className="lg:text-8xl md:text-6xl text-4xl font-greatVive ">Dreams Event</MovingText>
                         <br />
                         <MovingText type="slideInFromLeft"
                             duration="5000ms"
@@ -106,7 +106,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="font-semibold lg:text-xl md:text-sm text-sm border-2 border-white lg:p-2 md:p-1 p-0">We turn moments into memories !</MovingText>
+                            fillMode="none" className="font-semibold lg:text-xl md:text-sm text-sm border-2 border-white lg:p-2 md:p-1 p-0">We turn moments into memories </MovingText>
                     </div>
                     <a href="#slide5" className="btn btn-circle">❯</a>
                 </div>
@@ -125,7 +125,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="lg:text-8xl md:text-6xl text-4xl font-greatVive font-semibold">Dreams Event</MovingText>
+                            fillMode="none" className="lg:text-8xl md:text-6xl text-4xl font-greatVive ">Dreams Event</MovingText>
                         <br />
                         <MovingText type="slideInFromLeft"
                             duration="5000ms"
@@ -133,7 +133,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="font-semibold lg:text-xl md:text-sm text-sm border-2 border-white lg:p-2 md:p-1 p-0">We turn moments into memories !</MovingText>
+                            fillMode="none" className="font-semibold lg:text-xl md:text-sm text-sm border-2 border-white lg:p-2 md:p-1 p-0">We turn moments into memories </MovingText>
                     </div>
                     <a href="#slide6" className="btn btn-circle">❯</a>
                 </div>
@@ -152,7 +152,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="lg:text-8xl md:text-6xl text-4xl font-greatVive font-semibold">Dreams Event</MovingText>
+                            fillMode="none" className="lg:text-8xl md:text-6xl text-4xl font-greatVive ">Dreams Event</MovingText>
                         <br />
                         <MovingText type="slideInFromLeft"
                             duration="5000ms"
@@ -160,7 +160,7 @@ const Banner = () => {
                             direction="normal"
                             timing="ease"
                             iteration="infinite"
-                            fillMode="none" className="font-semibold  lg:text-xl md:text-sm text-sm border-2 border-white lg:p-2 md:p-1 p-0">We turn moments into memories !</MovingText>
+                            fillMode="none" className="font-semibold  lg:text-xl md:text-sm text-sm border-2 border-white lg:p-2 md:p-1 p-0">We turn moments into memories </MovingText>
                     </div>
                     <a href="#slide1" className="btn btn-circle">❯</a>
                 </div>

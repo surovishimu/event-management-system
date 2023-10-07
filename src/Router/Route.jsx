@@ -5,16 +5,20 @@ import About from "../Pages/About/About";
 import Gallery from "../Pages/Gallery/Gallery";
 import Contact from "../Pages/Contact/Contact";
 import Login from "../Pages/Login/Login";
+import Error from "../Pages/Error Page/Error";
+import ServiceDetails from "../Components/ServiceDetails/ServiceDetails";
 
 
 const myCreatedRoute = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout></MainLayout>,
+        errorElement: <Error></Error>,
         children: [
             {
                 path: '/',
-                element: <Home></Home>
+                element: <Home></Home>,
+                loader: () => fetch('/event.json')
             },
             {
                 path: '/about',
@@ -31,6 +35,11 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path: '/login',
                 element: <Login></Login>
+            },
+            {
+                path: '/services/:id',
+                element: <ServiceDetails></ServiceDetails>,
+                loader: () => fetch('/event.json')
             }
         ]
     }
