@@ -26,25 +26,25 @@ const SingleServiceInfo = ({ serviceInfo }) => {
             </div>
             <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 px-10">
 
-                <div className="overflow-hidden">
+                <div className="overflow-hidden border-2 border-dotted border-amber-600 p-5">
                     <img src={photo1} alt="Gallery Image 1" className="w-full h-full transition-transform transform hover:scale-105" />
                 </div>
 
 
-                <div className="overflow-hidden">
+                <div className="overflow-hidden border-2 border-dotted border-amber-600 p-5">
                     <img src={photo2} className="w-full h-full transition-transform transform hover:scale-105" />
                 </div>
 
-                <div className="overflow-hidden">
+                <div className="overflow-hidden border-2 border-dotted border-amber-600 p-5">
                     <img src={photo3} alt="Gallery Image 3" className="w-full h-full transition-transform transform hover:scale-105" />
                 </div>
-                <div className="overflow-hidden">
+                <div className="overflow-hidden border-2 border-dotted border-amber-600 p-5">
                     <img src={photo4} alt="Gallery Image 3" className="w-full h-full transition-transform transform hover:scale-105" />
                 </div>
-                <div className="overflow-hidden">
+                <div className="overflow-hidden border-2 border-dotted border-amber-600 p-5">
                     <img src={photo5} alt="Gallery Image 3" className="w-full h-full transition-transform transform hover:scale-105" />
                 </div>
-                <div className="overflow-hidden">
+                <div className="overflow-hidden border-2 border-dotted border-amber-600 p-5">
                     <img src={photo6} alt="Gallery Image 3" className="w-full h-full transition-transform transform hover:scale-105" />
                 </div>
 
