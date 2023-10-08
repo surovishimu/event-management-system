@@ -10,18 +10,18 @@ import { useEffect, useState } from 'react';
 const Review = () => {
     const [slidesPerView, setSlidesPerView] = useState(1);
     useEffect(() => {
-        // Define a media query for large screens
+  
         const mediumScreenMediaQuery = window.matchMedia('(min-width: 640px) and (max-width: 1023px)');
         const largeScreenMediaQuery = window.matchMedia('(min-width: 1024px)');
         const handleMediaQuery = (mediaQuery) => {
             if (mediaQuery.matches) {
                 if (mediaQuery.media === '(min-width: 640px) and (max-width: 1023px)') {
-                    setSlidesPerView(2); // 2 slides for medium screens
+                    setSlidesPerView(2);
                 } else {
-                    setSlidesPerView(3); // 3 slides for large screens
+                    setSlidesPerView(3);
                 }
             } else {
-                setSlidesPerView(1); // 1 slide for smaller screens
+                setSlidesPerView(1); 
             }
         };
         handleMediaQuery(largeScreenMediaQuery);
@@ -117,7 +117,7 @@ const Review = () => {
                             <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" checked />
                         </div>
                         <div className="card-body items-center text-center">
-                            <p className='text-sm font-serif text-center -mb-6'>Our corporate event was a hit, all thanks to your team's expertise. From the venue selection to the seamless coordination, everything was superb. We received so many compliments from our colleagues</p>
+                            <p className='text-sm font-serif text-center -mb-6'>Our corporate event was a hit, all thanks to your teams expertise. From the venue selection to the seamless coordination, everything was superb. We received so many compliments from our colleagues</p>
                         </div>
 
                         <div className='flex justify-around items-center px-10 mb-4'>
@@ -137,7 +137,7 @@ const Review = () => {
                             <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" checked />
                         </div>
                         <div className="card-body items-center text-center">
-                            <p className='text-sm font-serif text-center '>I can't express how thrilled I am with your event planning for my son's birthday party. The entertainment,and decorations were a hit with the kids and adults alike.</p>
+                            <p className='text-sm font-serif text-center '>I can not express how thrilled I am with your event planning for my sons birthday party. The entertainment,and decorations were a hit with the kids and adults alike.</p>
                         </div>
 
                         <div className='flex justify-around items-center px-10 mb-4'>
@@ -177,7 +177,7 @@ const Review = () => {
                             <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" checked />
                         </div>
                         <div className="card-body items-center text-center">
-                            <p className='text-sm font-serif text-center '>Our mehendi ceremony was a magical experience, all thanks to your team's creative vision. The vibrant decor and entertainment made it a day filled with love and laughter. We couldn't be happier!</p>
+                            <p className='text-sm font-serif text-center '>Our mehendi ceremony was a magical experience, all thanks to your teams creative vision. The vibrant decor and entertainment made it a day filled with love and laughter. We could not be happier!</p>
                         </div>
 
                         <div className='flex justify-around items-center px-10 mb-4'>

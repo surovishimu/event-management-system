@@ -6,6 +6,7 @@ import Qualification from "../../Components/Qualification/Qualification";
 import Review from "../../Components/Review/Review";
 import MessageForm from "../../Components/MessageForm/MessageForm";
 import Footer from "../../Components/Footer/Footer";
+import Faq from "../../Components/FAQ/Faq";
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <Qualification></Qualification>
             <Review></Review>
             <MessageForm></MessageForm>
+            <Faq></Faq>
             <Footer></Footer>
             
         </div>
