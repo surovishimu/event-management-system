@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { FcGoogle } from 'react-icons/fc';
 import UseAuth from '../../Hooks/UseAuth';
 import toast from 'react-hot-toast';
+import { Helmet } from 'react-helmet-async';
 
 const Registration = () => {
     const { googleLogin, createUser, handleUpdateprofile } = UseAuth();
@@ -48,12 +49,15 @@ const Registration = () => {
             )
             .catch(error => toast.error(error.message))
 
-
-
     }
 
     return (
         <>
+            <Helmet>
+                <title>
+                    Dreams Event | Register
+                </title>
+            </Helmet>
             <div className="-mb-20 hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row md:px-32 px-0">
                     <div className="text-center lg:text-left">

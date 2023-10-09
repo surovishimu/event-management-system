@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { FcGoogle } from 'react-icons/fc';
 import UseAuth from '../../Hooks/UseAuth';
 import toast from 'react-hot-toast';
+import { Helmet } from 'react-helmet-async';
 
 const Login = () => {
 
@@ -35,6 +36,11 @@ const Login = () => {
     }
     return (
         <div className=''>
+            <Helmet>
+                <title>
+                    Dreams Event | Login
+                </title>
+            </Helmet>
             <div className=" hero min-h-screen bg-base-200 -mb-20 ">
                 <div className="hero-content flex-col lg:flex-row md:px-32 px-0">
                     <div className="text-center lg:text-left">

@@ -17,7 +17,7 @@ Dreams Event Ltd. is a comprehensive social event management system designed to 
 - **Footer Information:** Access essential links and additional information for an enhanced browsing experience.
 
 ## Get Started
-Visit Dreams Event Ltd.(https://www.dreamsEventBd.com) to explore our services and start planning your dream event today!
+Visit Dreams Event Ltd.(https://event-management-assignm-4ed25.web.app) to explore our services and start planning your dream event today!
 
 
 ## Contact Us

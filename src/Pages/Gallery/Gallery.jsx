@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -6,11 +7,16 @@ const Gallery = () => {
 
 
         <>
+            <Helmet>
+                <title>
+                    Dreams Event | Gallery
+                </title>
+            </Helmet>
             <div className="-mb-10">
                 <h1 className="text-center mt-5 text-2xl text-amber-600 font-bold">OUR GALLERY</h1>
                 <h1 className="lg:text-5xl md:text-4xl text-3xl mt-5 mb-5 font-greatVive text-violet-900 text-center font-semibold ">We offer you the best support
                 </h1>
-                <img className='mx-auto lg:h-44 h-40 -mt-20 -mb-20' src="../../../public/image/line.png" alt="" />
+                <img className='mx-auto lg:h-44 h-40 -mt-20 -mb-20' src="/image/line.png" alt="" />
                 <div className=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-2 p-20 -mt-10">
 
                     <div className="overflow-hidden  p-5">
@@ -70,8 +76,8 @@ const Gallery = () => {
 
                 </div>
             </div>
-          
-            </>
+
+        </>
     );
 };
 

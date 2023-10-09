@@ -7,6 +7,7 @@ import Review from "../../Components/Review/Review";
 import MessageForm from "../../Components/MessageForm/MessageForm";
 import Footer from "../../Components/Footer/Footer";
 import Faq from "../../Components/FAQ/Faq";
+import { Helmet } from "react-helmet-async";
 
 
 const Home = () => {
@@ -14,6 +15,11 @@ const Home = () => {
     console.log(services);
     return (
         <div>
+            <Helmet>
+                <title>
+                    Dreams Event | Home
+                </title>
+            </Helmet>
             <Banner></Banner>
             <Intro></Intro>
             <Services services={services}></Services>
@@ -21,8 +27,8 @@ const Home = () => {
             <Review></Review>
             <MessageForm></MessageForm>
             <Faq></Faq>
-           
-            
+
+
         </div>
     );
 };

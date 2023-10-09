@@ -50,7 +50,7 @@ const Navbar = () => {
         <nav className="bg-violet-950">
             <div className="container mx-auto flex justify-between items-center">
 
-                <div><img className="lg:h-28 lg:w-44 h-16 w-32" src="../../../../public/image/images-removebg-preview.png" alt="" /></div>
+                <div><img className="lg:h-28 lg:w-44 h-16 w-32" src="/image/images-removebg-preview.png" alt="" /></div>
 
 
                 <div className="block sm:hidden mt-3">
