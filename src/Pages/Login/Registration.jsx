@@ -55,7 +55,7 @@ const Registration = () => {
     return (
         <>
             <div className="-mb-20 hero min-h-screen bg-base-200">
-                <div className="hero-content flex-col lg:flex-row px-32">
+                <div className="hero-content flex-col lg:flex-row md:px-32 px-0">
                     <div className="text-center lg:text-left">
                         <h1 className="text-5xl font-bold font-serif text-violet-900">Sign Up now!</h1>
                         <p className="mx-auto lg:mx-0 py-6 font-serif text-lg font-semibold w-3/6"> If it's your first time here, welcome aboard! Feel free to create an account and explore the world of unforgettable events.</p>
