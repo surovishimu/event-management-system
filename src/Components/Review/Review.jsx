@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 const Review = () => {
     const [slidesPerView, setSlidesPerView] = useState(1);
     useEffect(() => {
-  
+
         const mediumScreenMediaQuery = window.matchMedia('(min-width: 640px) and (max-width: 1023px)');
         const largeScreenMediaQuery = window.matchMedia('(min-width: 1024px)');
         const handleMediaQuery = (mediaQuery) => {
@@ -21,7 +21,7 @@ const Review = () => {
                     setSlidesPerView(3);
                 }
             } else {
-                setSlidesPerView(1); 
+                setSlidesPerView(1);
             }
         };
         handleMediaQuery(largeScreenMediaQuery);

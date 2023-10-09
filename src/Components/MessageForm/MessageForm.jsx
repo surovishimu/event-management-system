@@ -8,7 +8,7 @@ const MessageForm = () => {
                 <div data-aos="zoom-out-right">
                     <img src="https://www.sbevents.in/images/couple.png" alt="" />
                 </div>
-                <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-amber-600 shadow-none">
+                <div data-aos="zoom-out-left" className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-amber-600 shadow-none">
                     <h4 className="block text-4xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased font-greatVive text-center">
                         Expectation Your Booking
                     </h4>

@@ -1,7 +1,7 @@
 
 const Qualification = () => {
     return (
-        <div className="mb-10">
+        <div data-aos="zoom-in" className="mb-10">
             <h1 className="text-3xl lg:text-5xl text-center mt-16 font-greatVive text-violet-900 font-semibold">
                 Why To Choose Us?
             </h1>

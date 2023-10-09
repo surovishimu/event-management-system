@@ -37,7 +37,7 @@ const Registration = () => {
 
         // create user
         createUser(email, password)
-            .then(result => {
+            .then(() => {
                 handleUpdateprofile(name, img)
                     .then(() => {
                         toast.success('user created succesfully');
