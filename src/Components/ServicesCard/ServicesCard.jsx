@@ -12,7 +12,9 @@ const ServicesCard = ({ service }) => {
         }`;
 
     return (
-        <div
+        <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="500"
             className={cardClass}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}

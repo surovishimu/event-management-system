@@ -5,7 +5,7 @@ const MessageForm = () => {
         <div className="pt-20">
 
             <div className="flex lg:flex-row md:flex-col-reverse flex-col-reverse  justify-center gap-10 items-center">
-                <div>
+                <div data-aos="zoom-out-right">
                     <img src="https://www.sbevents.in/images/couple.png" alt="" />
                 </div>
                 <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-amber-600 shadow-none">
