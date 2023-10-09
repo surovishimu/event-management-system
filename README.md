@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>Here we have a variable "greeting" and assigns it an empty object, when we log the "greeting" variable to the console, it displays the empty object.So the answer is A</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>The function sum take two parameter and return the sum of this parameter.when we pass a number and a string value as a parameter in the sum function ,JavaScript converts the number 1 to a string and then concatenates it with the string "2" and give the result "12" (a string).</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>Here the original array food does not change when we reassign the info.favoriteFood property.This assignment only changes the value of the info.favoriteFood property,so when we console.log(food), it logs the original food array. </i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>Here we have call sayHi function without passing any argument.so the name parameter will be undefine and the function will return 'Hi there, undefined'  in the template literal. </i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>here the code counts and increments count for each truthy element in the nums array . as because here we have three truthy elements in the array  so the result will be 3.</i>
 
 </p>
 </details>
