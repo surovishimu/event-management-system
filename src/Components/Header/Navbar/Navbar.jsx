@@ -1,5 +1,3 @@
-
-
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import UseAuth from "../../../Hooks/UseAuth";
@@ -11,51 +9,18 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
-    const links = <>
-
-        <li>
-            <NavLink to='/' href="#" className={({ isActive }) =>
-                isActive ? "text-amber-600 text-lg font-semibold bg-transparent border-none rounded-lg btn btn-md normal-case hover:bg-transparent" : "text-lg font-semibold btn btn-md bg-transparent border-none hover:bg-transparent normal-case text-white hover:text-lg "
-            }>
-                Home
-            </NavLink>
-        </li>
-        <li>
-            <NavLink to='/about' href="#" className={({ isActive }) =>
-                isActive ? "text-amber-600 text-lg font-semibold bg-transparent border-none rounded-lg btn btn-md normal-case hover:bg-transparent" : "text-lg font-semibold btn btn-md bg-transparent border-none hover:bg-transparent normal-case text-white hover:text-lg"
-            }>
-                About Us
-            </NavLink>
-        </li>
-        <li>
-            <NavLink to='/gallery' href="#" className={({ isActive }) =>
-                isActive ? "text-amber-600 text-lg font-semibold bg-transparent border-none rounded-lg btn btn-md normal-case hover:bg-transparent" : "text-lg font-semibold btn btn-md bg-transparent border-none hover:bg-transparent normal-case text-white hover:text-lg"
-            }>
-                Gallery
-            </NavLink>
-        </li>
-        <li>
-            <NavLink to='/contact' href="#" className={({ isActive }) =>
-                isActive ? "text-amber-600 text-lg font-semibold bg-transparent border-none rounded-lg btn btn-md normal-case hover:bg-transparent" : "text-lg font-semibold btn btn-md bg-transparent border-none hover:bg-transparent normal-case text-white hover:text-lg"
-            }>
-                Contact Us
-            </NavLink>
-        </li>
-
-    </>
-
     const { user, logOut } = UseAuth();
 
     return (
         <nav className="bg-violet-950">
             <div className="container mx-auto flex justify-between items-center">
-
-                <div><img className="lg:h-28 lg:w-44 h-16 w-32" src="/image/images-removebg-preview.png" alt="" /></div>
-
+                <div>
+                    <img className="lg:h-28 lg:w-44 h-16 w-32" src="/image/images-removebg-preview.png" alt="" />
+                </div>
 
                 <div className="block sm:hidden mt-3">
                     <button
-                        className="text-white mr-4 "
+                        className="text-white mr-4"
                         onClick={toggleMenu}
                     >
                         {isOpen ? (
@@ -92,13 +57,37 @@ const Navbar = () => {
                     </button>
                 </div>
 
+                <ul className={`${isOpen ? "block sm:flex sm:space-x-4 mt-4 sm:mt-0" : "hidden sm:flex sm:space-x-4 mt-4 sm:mt-0"}`}>
+                    <li>
+                        <NavLink to='/' href="#" className={({ isActive }) =>
+                            isActive ? "text-amber-600 text-lg font-semibold bg-transparent border-none rounded-lg btn btn-md normal-case hover:bg-transparent" : "text-lg font-semibold btn btn-md bg-transparent border-none hover:bg-transparent normal-case text-white hover:text-lg "
+                        }>
+                            Home
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/about' href="#" className={({ isActive }) =>
+                            isActive ? "text-amber-600 text-lg font-semibold bg-transparent border-none rounded-lg btn btn-md normal-case hover:bg-transparent" : "text-lg font-semibold btn btn-md bg-transparent border-none hover:bg-transparent normal-case text-white hover:text-lg"
+                        }>
+                            About Us
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/gallery' href="#" className={({ isActive }) =>
+                            isActive ? "text-amber-600 text-lg font-semibold bg-transparent border-none rounded-lg btn btn-md normal-case hover:bg-transparent" : "text-lg font-semibold btn btn-md bg-transparent border-none hover:bg-transparent normal-case text-white hover:text-lg"
+                        }>
+                            Gallery
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/contact' href="#" className={({ isActive }) =>
+                            isActive ? "text-amber-600 text-lg font-semibold bg-transparent border-none rounded-lg btn btn-md normal-case hover:bg-transparent" : "text-lg font-semibold btn btn-md bg-transparent border-none hover:bg-transparent normal-case text-white hover:text-lg"
+                        }>
+                            Contact Us
+                        </NavLink>
+                    </li>
 
-                <ul
-                    className={`${isOpen ? "block" : "hidden"} sm:flex sm:space-x-4 mt-4 sm:mt-0`}
-                >
-                    {links}
-
-                    {isOpen && (user?.email ? (
+                    {user?.email ? (
                         <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full">
@@ -115,44 +104,15 @@ const Navbar = () => {
                             </ul>
                         </div>
                     ) : (
-                        <NavLink to='/login' href="#" className={({ isActive }) =>
-                            isActive ? "text-amber-600 text-lg font-semibold bg-transparent border-none rounded-lg btn btn-md normal-case hover:bg-transparent " : "text-lg font-semibold btn btn-md bg-transparent border-none hover:bg-transparent normal-case text-white hover:text-lg "
-                        }>
-                            Log in
-                        </NavLink>
-                    ))}
-                </ul>
-
-
-                <div className="hidden sm:block ">
-                    {
-                        user?.email ? <div className="dropdown dropdown-end">
-                            <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={user.photoURL} />
-                                </div>
-                            </label>
-                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                                <li>
-                                    <button className="btn btn-sm  btn-ghost normal-case hover:bg-violet-900 hover:text-white">{user.displayName}</button>
-
-                                </li>
-                                <li>
-                                    <button className="hover:bg-violet-900 hover:text-white normal-case btn btn-sm  btn-ghost" onClick={logOut}>Logout</button>
-
-                                </li>
-                            </ul>
-                        </div>
-                            :
+                        <li>
                             <NavLink to='/login' href="#" className={({ isActive }) =>
                                 isActive ? "text-amber-600 text-lg font-semibold bg-transparent border-none rounded-lg btn btn-md normal-case hover:bg-transparent " : "text-lg font-semibold btn btn-md bg-transparent border-none hover:bg-transparent normal-case text-white hover:text-lg "
                             }>
                                 Log in
                             </NavLink>
-                    }
-
-
-                </div>
+                        </li>
+                    )}
+                </ul>
             </div>
         </nav>
     );

@@ -35,7 +35,7 @@ const Review = () => {
         };
     }, []);
     return (
-        <div className='mt-20 '>
+        <div className='mt-20 lg:-mb-0 md:-mb-0 -mb-24'>
             <h1 className="text-5xl text-center mt-16 font-greatVive text-violet-900 font-semibold mb-10">Our Lovely Customers</h1>
             <Swiper
 
