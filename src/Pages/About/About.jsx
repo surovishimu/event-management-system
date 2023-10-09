@@ -1,4 +1,4 @@
-import Footer from "../../Components/Footer/Footer";
+
 import Team from "../../Components/TeamMember/Team";
 
 
@@ -39,7 +39,7 @@ const About = () => {
 
    </div>
    <Team></Team>
-   <Footer></Footer></div>
+  </div>
     );
 };
 

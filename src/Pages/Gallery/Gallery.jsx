@@ -1,4 +1,4 @@
-import Footer from "../../Components/Footer/Footer";
+
 
 
 const Gallery = () => {
@@ -70,7 +70,7 @@ const Gallery = () => {
 
                 </div>
             </div>
-            <Footer></Footer>
+          
             </>
     );
 };

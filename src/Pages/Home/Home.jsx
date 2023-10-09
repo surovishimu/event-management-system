@@ -21,7 +21,7 @@ const Home = () => {
             <Review></Review>
             <MessageForm></MessageForm>
             <Faq></Faq>
-            <Footer></Footer>
+           
             
         </div>
     );

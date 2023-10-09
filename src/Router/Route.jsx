@@ -7,6 +7,8 @@ import Contact from "../Pages/Contact/Contact";
 import Login from "../Pages/Login/Login";
 import Error from "../Pages/Error Page/Error";
 import ServiceDetails from "../Components/ServiceDetails/ServiceDetails";
+import Registration from "../Pages/Login/Registration";
+import PrivateRout from "../PrivateRout/PrivateRout";
 
 
 const myCreatedRoute = createBrowserRouter([
@@ -22,7 +24,9 @@ const myCreatedRoute = createBrowserRouter([
             },
             {
                 path: '/about',
-                element: <About></About>
+                element: <PrivateRout>
+                    <About></About>
+                </PrivateRout>
             },
             {
                 path: '/gallery',
@@ -30,7 +34,9 @@ const myCreatedRoute = createBrowserRouter([
             },
             {
                 path: '/contact',
-                element: <Contact></Contact>
+                element: <PrivateRout>
+                    <Contact></Contact>
+                </PrivateRout>
             },
             {
                 path: '/login',
@@ -38,8 +44,12 @@ const myCreatedRoute = createBrowserRouter([
             },
             {
                 path: '/services/:id',
-                element: <ServiceDetails></ServiceDetails>,
+                element: <PrivateRout><ServiceDetails></ServiceDetails></PrivateRout>,
                 loader: () => fetch('/event.json')
+            },
+            {
+                path: '/registration',
+                element: <Registration></Registration>
             }
         ]
     }

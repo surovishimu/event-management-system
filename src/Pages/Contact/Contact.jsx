@@ -12,7 +12,7 @@ const Contact = () => {
             <img className='mx-auto lg:h-48 -mt-28 -mb-36 h-24' src="../../../public/image/line.png" alt="" />
             <MessageForm></MessageForm>
             <ContactForm></ContactForm>
-            <Footer></Footer>
+         
         </div>
     );
 };
