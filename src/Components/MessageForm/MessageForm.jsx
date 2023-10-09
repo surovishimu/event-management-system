@@ -2,18 +2,18 @@
 
 const MessageForm = () => {
     return (
-        <div className="pt-20">
+        <div className="lg:pt-20 md:pt-36 pt-40">
 
             <div className="flex lg:flex-row md:flex-col-reverse flex-col-reverse  justify-center gap-10 items-center">
                 <div data-aos="zoom-out-right">
                     <img src="https://www.sbevents.in/images/couple.png" alt="" />
                 </div>
                 <div data-aos="zoom-out-left" className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-amber-600 shadow-none">
-                    <h4 className="block text-4xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased font-greatVive text-center">
+                    <h4 className="block text-4xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased font-greatVive text-center lg:block md:hidden hidden">
                         Expectation Your Booking
                     </h4>
 
-                    <img className="h-5 w-56 mx-auto mt-2" src="https://www.sbevents.in/images/title-bottom.png" alt="" />
+                    
                     <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
                         <div className="mb-4 flex flex-col gap-6">
                             <div className="relative h-11 w-full min-w-[200px]">

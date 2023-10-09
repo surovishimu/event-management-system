@@ -47,25 +47,7 @@ const Review = () => {
                 onSlideChange={() => console.log('slide change')}
                 className="lg:grid lg:grid-cols-3"
             >
-                <SwiperSlide>
-                    <div className="card lg:w-80 md:w-80 w-full bg-base-100 shadow-xl h-full">
-                        <div className="rating mx-auto mt-5 -mb-3">
-                            <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" checked />
-                        </div>
-                        <div className="card-body items-center text-center">
-                            <p className='text-sm font-serif text-center '>I can not thank your team enough for making our destination wedding a dream come true! Every detail was meticulously planned, and the execution was flawless. It was an great experience for us.</p>
-                        </div>
 
-                        <div className='flex justify-around items-center px-10 mb-4'>
-                            <img className='h-24' src="https://thumbs.dreamstime.com/b/businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg" alt="" />
-                            <h1 className='font-serif font-semibold text-lg'>Md Jafar Iqbal</h1>
-                        </div>
-                    </div>
-                </SwiperSlide>
 
                 <SwiperSlide>
                     <div className="card lg:w-80 md:w-80 w-full bg-base-100 shadow-xl h-full">
@@ -183,6 +165,25 @@ const Review = () => {
                         <div className='flex justify-around items-center px-10 mb-4'>
                             <img className='h-24' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNcRzIH4z-aAw9737oimlsR53-GWSOkDhfbmwqox870z3VYLH5jR_qr252EWXzzFdXWvI&usqp=CAU" alt="" />
                             <h1 className='font-serif font-semibold text-lg'>Shamoli Shila</h1>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="card lg:w-80 md:w-80 w-full bg-base-100 shadow-xl h-full">
+                        <div className="rating mx-auto mt-5 -mb-3">
+                            <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-1" className="mask mask-star-2 bg-orange-400" checked />
+                        </div>
+                        <div className="card-body items-center text-center">
+                            <p className='text-sm font-serif text-center '>I can not thank your team enough for making our destination wedding a dream come true! Every detail was meticulously planned, and the execution was flawless. It was an great experience for us.</p>
+                        </div>
+
+                        <div className='flex justify-around items-center px-10 mb-4'>
+                            <img className='h-24' src="https://thumbs.dreamstime.com/b/businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg" alt="" />
+                            <h1 className='font-serif font-semibold text-lg'>Md Jafar Iqbal</h1>
                         </div>
                     </div>
                 </SwiperSlide>

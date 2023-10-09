@@ -63,7 +63,7 @@ const Team = () => {
 
 
                 <SwiperSlide>
-                    <div className="card lg:w-56 mt-16 ml-20 md:w-64 w-full bg-base-100 ">
+                    <div className="card lg:w-56 mt-16 lg:ml-20 ml-0 md:w-64 w-full bg-base-100 ">
 
                         <img src="https://event-solutionservice.com/wp-content/uploads/2023/05/NEERAJ-KUMAR.jpg" alt="" />
 
@@ -77,7 +77,7 @@ const Team = () => {
 
 
                 <SwiperSlide>
-                    <div className="card lg:w-56 mt-16 ml-20 md:w-64 w-full bg-base-100 ">
+                    <div className="card lg:w-56 mt-16 lg:ml-20 ml-0 md:w-64 w-full bg-base-100 ">
 
                         <img src="https://event-solutionservice.com/wp-content/uploads/2023/05/PAYAL-KUMARI.jpg" alt="" />
 
@@ -90,7 +90,7 @@ const Team = () => {
 
 
                 <SwiperSlide>
-                    <div className="card lg:w-56 mt-16 ml-20 md:w-64 w-full bg-base-100 ">
+                    <div className="card lg:w-56 mt-16 lg:ml-20 ml-0 md:w-64 w-full bg-base-100 ">
 
                         <img src="https://event-solutionservice.com/wp-content/uploads/2023/05/RASHI-SINHA.jpg" alt="" />
 
@@ -102,7 +102,7 @@ const Team = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className="card lg:w-56 mt-16 ml-20 md:w-64 w-full bg-base-100 ">
+                    <div className="card lg:w-56 mt-16 lg:ml-20 ml-0 md:w-64 w-full bg-base-100 ">
 
                         <img src="https://event-solutionservice.com/wp-content/uploads/2023/05/PREETI-KUMARI.jpg" alt="" />
 
@@ -114,7 +114,7 @@ const Team = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className="card lg:w-56 mt-16 ml-20 md:w-64 w-full bg-base-100 ">
+                    <div className="card lg:w-56 mt-16 lg:ml-20 ml-0 md:w-64 w-full bg-base-100 ">
 
                         <img src="https://event-solutionservice.com/wp-content/uploads/2023/05/HIMANSHU-JASSAL.jpg" alt="" />
 
@@ -125,7 +125,7 @@ const Team = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card lg:w-56 mt-16 ml-20 md:w-64 w-full bg-base-100 ">
+                    <div className="card lg:w-56 mt-16 lg:ml-20 ml-0 md:w-64 w-full bg-base-100 ">
 
                         <img src="https://event-solutionservice.com/wp-content/uploads/2023/05/SURAJ-SINGH.jpg" alt="" />
 

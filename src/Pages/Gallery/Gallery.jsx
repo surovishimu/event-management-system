@@ -17,7 +17,7 @@ const Gallery = () => {
                 <h1 className="lg:text-5xl md:text-4xl text-3xl mt-5 mb-5 font-greatVive text-violet-900 text-center font-semibold ">We offer you the best support
                 </h1>
                 <img className='mx-auto lg:h-44 h-40 -mt-20 -mb-20' src="/image/line.png" alt="" />
-                <div className=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-2 p-20 -mt-10">
+                <div className=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-2 lg:p-20 md:p-16 p-12 -mt-10">
 
                     <div className="overflow-hidden  p-5">
                         <img src="https://www.sbevents.in/images/gallery/g1.webp" alt="Gallery Image 1" className="w-full h-full transition-transform transform hover:scale-105" />
